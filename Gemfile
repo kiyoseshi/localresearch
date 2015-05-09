@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'pg', '0.18.1'
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 
 gem 'bootstrap-sass'
 gem 'sprockets-rails', '2.0.0'
