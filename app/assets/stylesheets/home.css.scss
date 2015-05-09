@@ -1,0 +1,16 @@
+
+#lp { background-color: red;
+
+  #header { position: fixed; background-color: #919191; height: 42px; top: 0; right: 0; left: 0;
+    p { font-size: 30px;  line-height: 42px; margin: 0 auto; text-align: center; }
+  }
+  #top { margin-top: 42px; height: 400px; background-color: #444;  }
+  #main {
+    .m-sec { height: 500px; background-color: #fff; border-bottom: 4px solid #666; }
+  }
+
+  #footer { height: 400px; background-color: #888; }
+
+}
+
+
