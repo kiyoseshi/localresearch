@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
+ get "/" => "home#index"
+
  scope :module => "home" do
-  get "/" => "home#index"
   get "landing"
  end
 
