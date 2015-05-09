@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 
-group :production do
-  gem 'pg'
-end
+gem 'pg'
 
 gem 'bootstrap-sass'
 gem 'sprockets-rails', '2.0.0'
@@ -10,7 +8,8 @@ gem 'sprockets-rails', '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '1.3.10'
+# gem 'sqlite3', '1.3.10'   ←　<< herokuでは、 システムの仕様上、SQliteは使えないらしいから、コメントアウト。 herokuでは、postgresql使うらしい。　なので、gem pg を導入してある >>
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
